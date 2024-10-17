@@ -1,0 +1,34 @@
+[
+  {
+    "title": "FitTracker",
+    "description": "FitTracker is a web application that allows trainers to manage their clients, assign exercises, and track progress efficiently. The application supports adding clients, managing client details, and associating specific exercises with each client.",
+    "technologies": "Java, Spring Boot, JWT Spring Security, JavaScript, React.js, SQL.",
+    "image": "./ft-2.png",
+    "githubLink": "https://github.com/LuieTech/FitTracker-client",
+    "link":"https://fit7racker.netlify.app/"
+  },
+  {
+    "title": "GeoMyWish",
+    "description": "'GeoMyWish', allows users to create groups and manage shopping lists within those groups. Each group can have multiple shopping lists, and users can add, edit, and manage products within those lists, making it a collaborative tool for group-based shopping management.",
+    "technologies": "HTML/CSS, JavaScript, MongoDB, Express.js, React.js, Node.js" ,
+    "image": "./gmw.png",
+    "githubLink": "https://github.com/LuieTech/GeoMyWish",
+    "link":"https://geomywish.fly.dev/login"
+  },
+  {
+    "title": "TinderBook",
+    "description": "TinderBook is a server-side rendering application that allows users to connect with others based on shared interests, similar to Tinder but designed for book enthusiasts. Users can browse, like, and match with others based on their book preferences. Key Technologies: JavaScript, Node.js, Express, MongoDB, React, and JWT for user authentication.",
+    "technologies":"JavaScript, Handlebars, CSS, Node.js, Express, MongoDB",
+    "image": "./tinder-book.png",
+    "githubLink": "https://github.com/TinderBook/tinder-book",
+    "link":""
+  },
+  {
+    "title": "Space Aircraft",
+    "description": "Space-Aircraft is a web-based interactive game that allows players to control a spacecraft using simple arrow keys to avoid obstacles and navigate through space. The goal is to survive as long as possible while avoiding collisions with incoming objects. Key Technologies: HTML/CSS, JavaScript, and HTML Canvas",
+    "technologies": "HTML/CSS, JavaScript, HTML Canvas, GitHub Pages",
+    "image": "./aircraft-game.png",
+    "githubLink": "https://github.com/LuieTech/Space-Aircraft/tree/main/assets",
+    "link":"https://luietech.github.io/Space-Aircraft/"
+  }
+]

@@ -5,7 +5,7 @@ function ContactMe() {
   const [state, handleSubmit] = useForm("manyypyp"); // 'manyypyp' is your form ID from Formspree
   
   if (state.succeeded) {
-    return <p className="flex justify-center p-[20%] text-indigo-500 text-lg">Thanks for your message!</p>;
+    return <p className="flex justify-center p-[20%] sm:p-[10%] md:p-[10%] lg:p-[10%] text-indigo-500 text-lg">Thanks for your message!</p>;
   }
 
   return (

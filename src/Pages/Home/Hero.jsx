@@ -12,7 +12,7 @@ function Hero() {
         <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-900">
           Hey, I'm Luie
         </p>
-        <h1 className="text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold text-gray-900 leading-tight">
+        <h1 className="text-4xl sm:text-5xl md:text-5xl xl:text-6xl font-bold text-gray-900 leading-tight">
           Full Stack
           <br />
           Developer

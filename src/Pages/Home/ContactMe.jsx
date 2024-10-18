@@ -14,7 +14,7 @@ function ContactMe() {
       className="flex flex-col max-w-full items-center px-4  py-[8vh] sm:pt-[10vh] sm:pb-[12vh] bg-white"
     >
       <div className="text-center mb-8 px-16">
-        <p className="text-indigo-600 text-lg font-medium">Get In Touch</p>
+        {/* <p className="text-indigo-600 text-lg font-medium">Get In Touch</p> */}
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Contact Me</h2>
         <p className="text-gray-700 text-base">
           Feel free to get in touch with me for any questions, <br /> I’ll make

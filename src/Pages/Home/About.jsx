@@ -12,7 +12,7 @@ function About() {
           <img
             src="./about-3.png"
             alt="About Me"
-            className="w-60 md:w-[30%] lg:w-[60%] h-auto object-cover rounded-full"
+            className="w-[55%] rounded-full sm:w-[33%]  md:w-[33%] lg:w-[55%] lg:rounded-[5%] lg:border-b-transparent h-auto object-cover "
             // style={{ borderRadius: "50%" }}
           />
         </div>

@@ -59,7 +59,7 @@ function Navbar() {
               <Link to="projects" offset={-20} smooth duration={500} className="hover:text-purple-500 transition duration-300">
                 Projects
               </Link>
-              <Link to="contact-me" offset={-20} smooth duration={500} className="hover:text-purple-500 transition duration-300">
+              <Link to="contact-me" offset={-40} smooth duration={500} className="hover:text-purple-500 transition duration-300">
                 Contact Me
               </Link>
             </div>

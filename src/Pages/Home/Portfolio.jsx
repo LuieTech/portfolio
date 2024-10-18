@@ -42,7 +42,7 @@ function Portfolio() {
         {/* Renderización de las tarjetas de los proyectos */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects?.map((project, index) => (
-            <div key={index} className="shadow-lg">
+            <div key={index} className="shadow-xl">
               <div className="relative flex justify-center">
                 <img
                   className="object-fit  h-64 lg:h-80"
@@ -50,14 +50,14 @@ function Portfolio() {
                   alt={project.title}
                 />
 
-                <div className="hover:bg-transparent transition duration-300 absolute bottom-0 top-0 right-0 left-0 bg-gray-900 opacity-25"></div>
-                {project.link && (
+                {/* <div className="hover:bg-transparent transition duration-300  bottom-0 top-0 right-0 left-0  "></div> */}
+                {/* {project.link && (
                   <a href={project.link} target="_blank" rel="noreferrer">
-                    <div className="text-xs absolute top-0 right-0 bg-indigo-600 px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
-                      Try It Out
+                    <div className="text-xs rounded-full absolute top-0 right-0 bg-indigo-600 px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                      Click here
                     </div>
                   </a>
-                )}
+                )} */}
               </div>
               <div className="min-h-[calc(100%)] h-auto px-6 py-6 mb-auto">
                 <h2 className="font-medium text-lg hover:text-indigo-600 transition duration-500 ease-in-out mb-2">
@@ -72,12 +72,12 @@ function Portfolio() {
                     </span>
                   </p>
                 </h5>
-                <div className="flex flex-col pt-4 pb-3 w-[45%]">
+                <div className="flex flex-col pt-4 pb- w-[42%]">
                   <a
                     href={project.githubLink}
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-sm flex gap-3 pt-4 pb-2"
+                    className="font-bold text-sm flex gap-3 pt-4 pb-2 hover:text-indigo-600"
                   >
                     View in GitHub
                     <svg
@@ -98,6 +98,12 @@ function Portfolio() {
                   </a>
                   <hr className="w-[90%] border-indigo-600" />
                 </div>
+                {project.link && 
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <div className="text-xs w-fit rounded-full top-0 right-0 bg-indigo-600 px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
+                    Try Live
+                  </div>
+                </a>}
               </div>
             </div>
           ))}

@@ -12,7 +12,7 @@ function About() {
           <img
             src="./about-3.png"
             alt="About Me"
-            className="w-[55%] rounded-full sm:w-[33%]  md:w-[33%] lg:w-[55%] lg:rounded-[5%] lg:border-b-transparent h-auto object-cover "
+            className="w-[55%] rounded-full sm:w-[33%] hover:scale-110 transition-all duration-700 md:w-[33%] lg:w-[55%] lg:rounded-[55%] lg:border-b-transparent h-auto object-cover "
             // style={{ borderRadius: "50%" }}
           />
         </div>
@@ -27,19 +27,19 @@ function About() {
           </div>
 
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
-            I’m Luie, a Full Stack Developer with a passion for building
-            impactful web applications. My journey in software development
-            started with a focus on the MERN stack, where I honed my skills in
-            creating dynamic and user-friendly websites.
+            I’m Luie, a Full Stack Developer who loves building meaningful web
+            applications. My journey in software development began with a focus
+            on the MERN stack, where I developed my skills in creating
+            interactive and user-friendly web application projects.
           </p>
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
-            To broaden my expertise, I completed a second bootcamp specializing
-            in Java, Spring Boot, and SQL. This experience has given me a
-            diverse skill set across both front-end and back-end development.
+            However, to expand my knowledge, I completed a second bootcamp in
+            Java, Spring Boot, and SQL. This experience has given me a strong
+            foundation in both front-end and back-end development.
           </p>
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
-            My goal is to continuously grow as a developer while delivering
-            impactful solutions that make a difference.
+            My goal is to keep growing as a developer while creating solutions
+            that make a real impact.
           </p>
         </div>
       </section>

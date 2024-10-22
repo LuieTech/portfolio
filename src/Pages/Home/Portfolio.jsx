@@ -12,7 +12,7 @@ function Portfolio() {
     <>
       <section
         id="projects"
-        className="pt-[6vh] pb-[10vh] mx-[7vw] sm:p-[6vw] sm:pt-[10vh] sm:pb-[13vh]"
+        className="pt-[6vh] pb-[10vh] mx-[6vw] sm:p-[6vw] sm:pt-[10vh] sm:pb-[13vh]"
       >
         {/* Título y botón */}
         <div className="flex flex-col mb-[8vh] sm:flex-row justify-between items-center text-center sm:text-left gap-y-2">
@@ -40,26 +40,18 @@ function Portfolio() {
         </div>
 
         {/* Renderización de las tarjetas de los proyectos */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-20">
           {projects?.map((project, index) => (
-            <div key={index} className="shadow-xl">
+            <div key={index} className="shadow-lg hover:scale-110 transition-all duration-700 rounded-xl">
+
               <div className="relative flex justify-center">
                 <img
                   className="object-fit  h-64 lg:h-80"
                   src={project.image}
                   alt={project.title}
                 />
-
-                {/* <div className="hover:bg-transparent transition duration-300  bottom-0 top-0 right-0 left-0  "></div> */}
-                {/* {project.link && (
-                  <a href={project.link} target="_blank" rel="noreferrer">
-                    <div className="text-xs rounded-full absolute top-0 right-0 bg-indigo-600 px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
-                      Click here
-                    </div>
-                  </a>
-                )} */}
               </div>
-              <div className="min-h-[calc(100%)] h-auto px-6 py-6 mb-auto">
+              <div className="min-h-[calc(100%)] h-auto px-6 py-6 mb-[3vh]">
                 <h2 className="font-medium text-lg hover:text-indigo-600 transition duration-500 ease-in-out mb-2">
                   {project.title}
                 </h2>
@@ -72,13 +64,13 @@ function Portfolio() {
                     </span>
                   </p>
                 </h5>
-                <div className="flex flex-col pt-4 pb- w-[42%]">
+                <div className="flex flex-col pt-4 pb- w-[100%] items-center">
                   <a
                     href={project.githubLink}
                     target="_blank"
                     rel="noreferrer"
-                    className="font-bold text-sm flex gap-3 pt-4 pb-2 hover:text-indigo-600"
-                  >
+                    className="font-bold text-sm flex gap-3 pt-4 pb-2 hover:text-indigo-600 justify-center w-[60%]"
+                    >
                     View in GitHub
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -95,11 +87,14 @@ function Portfolio() {
                         strokeLinejoin="round"
                       ></path>
                     </svg>
+                    
                   </a>
-                  <hr className="w-[90%] border-indigo-600" />
+                  <hr className=" border-indigo-600 w-[40%] " />
+                  {/* </div> */}
+                  
                 </div>
                 {project.link && 
-                <a href={project.link} target="_blank" rel="noreferrer">
+                <a href={project.link} target="_blank" rel="noreferrer" className="flex justify-center">
                   <div className="text-xs w-fit rounded-full top-0 right-0 bg-indigo-600 px-4 py-2 text-white mt-3 mr-3 hover:bg-white hover:text-indigo-600 transition duration-500 ease-in-out">
                     Try Live
                   </div>

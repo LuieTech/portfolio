@@ -5,10 +5,10 @@ function Hero() {
   return (
     <section
       id="heroSection"
-      className="grid grid-cols-1 place-items-stretch sm:grid-cols-2 place-content-center items-center px-8 pt-36 pb-[10vh] sm:px-[10vw] sm:pt-[18vh] sm:pb-[12vh] sm:gap- bg-blue-50"
+      className="grid grid-cols-1 place-items-stretch md:grid-cols-2 place-content-center items-center px-8 pt-32 pb-[10vh] sm:px-[10vw] sm:pt-[18vh] sm:pb-[12vh] sm:gap-5 bg-blue-50"
     >
       {/* Text First on Desktop, Image First on Mobile */}
-      <div className="flex flex-col space-y-2 text-stretch sm:text-left items-center sm:items-start mt-10 sm:order-none order-2">
+      <div className="flex flex-col space-y-2 text-stretch md:text-left items-center md:items-start mt-10 md:order-none order-2">
         <p className="text-xl md:text-2xl lg:text-3xl font-semibold text-gray-900">
           Hey, I'm Luie
         </p>
@@ -28,7 +28,7 @@ function Hero() {
         <img
           src="./hero-image.png"
           alt="Hero Section"
-          className="w-[60%] sm:w-[65%] md:w-[65%] lg:w-[65%] h-auto object-cover rounded-[15%]"
+          className="w-[55%] sm:w-[60%] md:w-[75%] lg:w-[80%] h-auto object-cover rounded-[15%]"
           // style={{ borderRadius: "20%", width: "80%" }}
         />
       </div>

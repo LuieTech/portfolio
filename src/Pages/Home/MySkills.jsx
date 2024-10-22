@@ -11,11 +11,11 @@ function MySkills() {
            
           <h1 className="text-4xl font-bold">My Skills</h1>
         </div>
-        <div className="mx-8 flex flex-wrap p-9 gap-6 justify-center">
+        <div className="mx-8 flex flex-wrap sm:mx-6 p-9 gap-6 justify-center">
           {" "}
           {/* Added gap and justify-center for better spacing */}
           {/* FRONTEND */}
-          <div className="w-full px-4 md:w-[48%] lg:w-[30%]">
+          <div className="w-full px-4  md:w-[48%] lg:w-[30%]">
             <div className="mb-6 rounded-xl py-6 px-5 shadow-md transition-all hover:shadow-lg sm:p-6 lg:p-5 xl:px-6 bg-blue-50 flex flex-col h-full">
               <div className=" mb-4 inline-block">
                 <img src="./frontend.png" alt="frontend-img" />

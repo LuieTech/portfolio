@@ -42,7 +42,7 @@ function Portfolio() {
         {/* Renderización de las tarjetas de los proyectos */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-20">
           {projects?.map((project, index) => (
-            <div key={index} className="shadow-lg hover:scale-110 transition-all duration-700 rounded-xl">
+            <div key={index} className="shadow-lg w-[100%] h-auto hover:scale-110 transition-all duration-700 rounded-xl">
 
               <div className="relative flex justify-center">
                 <img

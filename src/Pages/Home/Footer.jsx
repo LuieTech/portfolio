@@ -41,9 +41,9 @@ function Footer() {
                   activeClass="navbar--active-content"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-20}
                   duration={500}
-                  to="AboutMe"
+                  to="about"
                   className="text-md hover:text-indigo-500"
                 >
                   About Me
@@ -54,9 +54,9 @@ function Footer() {
                   activeClass="navbar--active-content"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-20}
                   duration={500}
-                  to="MyPortfolio"
+                  to="projects"
                   className="text-md hover:text-indigo-500"
                 >
                   Portfolio
@@ -67,9 +67,9 @@ function Footer() {
                   activeClass="navbar--active-content"
                   spy={true}
                   smooth={true}
-                  offset={-70}
+                  offset={-40}
                   duration={500}
-                  to="Contact"
+                  to="contact-me"
                   className="text-md hover:text-indigo-500"
                 >
                   Contact Me

@@ -17,7 +17,7 @@ function ContactMe() {
         {/* <p className="text-indigo-600 text-lg font-medium">Get In Touch</p> */}
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Contact Me</h2>
         <p className="text-gray-700 text-base">
-          Feel free to get in touch with me for any questions, <br /> I’ll make
+          Feel free to message me, <br /> I’ll make
           sure to get back to you as soon as possible.
         </p>
       </div>

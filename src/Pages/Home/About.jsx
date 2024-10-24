@@ -9,12 +9,11 @@ function About() {
       >
         {/* Image Section */}
         <div className="flex justify-center md:justify-center">
-        <img
-  src="./about-3.png"
-  alt="About Me"
-  className="w-[55%] rounded-full sm:w-[33%] hover:scale-110 transition-all duration-700 md:w-[33%] lg:w-[55%] lg:rounded-[55%] lg:border-b-transparent h-auto object-cover pointer-events-none"
-/>
-
+          <img
+            src="./about-3.png"
+            alt="About Me"
+            className="w-[55%] rounded-full sm:w-[33%] hover:scale-110 transition-all duration-700 md:w-[33%] lg:w-[55%] lg:rounded-[55%] lg:border-b-transparent h-auto object-cover pointer-events-none"
+          />
         </div>
 
         {/* Text Section */}
@@ -28,14 +27,13 @@ function About() {
 
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
             I’m Luie, a Full Stack Developer skilled in the MERN stack and
-            JavaScript, I developed my skills in creating interactive and
-            user-friendly web application.
+            JavaScript. I’ve developed my skills in creating interactive and
+            user-friendly web applications.
           </p>
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
             However, to expand my knowledge, I completed a second Bootcamp
-            focused on additional technologies such as Java, MySQL, and Spring
-            Boot. This experience has given me a strong foundation in both
-            front-end and back-end development.
+            focused on Java, MySQL, and Spring Boot. This experience has given
+            me a strong foundation in both front-end and back-end development.
           </p>
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
             My goal is to keep growing as a developer while creating solutions

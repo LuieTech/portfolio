@@ -26,9 +26,9 @@ function Hero() {
       </div>
       <div className="flex justify-center order-1 sm:order-none">
         <img
-          src="./hero-image.png"
+          src="./hero-photo.png"
           alt="Hero Section"
-          className="w-[55%] sm:w-[60%] md:w-[75%] lg:w-[80%] h-auto object-cover rounded-[15%] pointer-events-none"
+          className="w-[60%] sm:w-[65%] md:w-[65%] lg:w-[65%] h-auto object-cover rounded-[5%] pointer-events-none"
           // style={{ borderRadius: "20%", width: "80%" }}
         />
       </div>

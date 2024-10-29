@@ -5,15 +5,15 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"; // You might n
 
 function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-white text-gray-800 px-4 py-4 md:px-8 md:py-6 shadow-md fixed w-full">
+    <Disclosure as="nav" className="bg-white text-gray-800 px-4 py-4 md:px-8 md:py-6 shadow-md fixed w-full z-50">
       {({ open }) => (
         <>
           <div className="container mx-auto flex justify-between items-center">
             {/* Left side (Logo/Name) */}
-            <div className="text-2xl font-bold">LRamirez</div>
+            <div className="text-2xl font-bold ps-1">LRamirez</div>
 
             {/* Hamburger Icon (Mobile) */}
-            <div className="md:hidden">
+            <div className="md:hidden pe-2">
               <Disclosure.Button className="text-3xl focus:outline-none">
                 {open ? <XMarkIcon className="h-6 w-6" /> : <Bars3Icon className="h-6 w-6" />}
               </Disclosure.Button>

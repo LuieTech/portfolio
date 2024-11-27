@@ -33,6 +33,14 @@ function Navbar() {
               <Link to="projects" offset={-40} smooth duration={500} className="hover:text-purple-500 transition duration-300">
                 Projects
               </Link>
+              <a
+                href="https://drive.google.com/file/d/1wZ5r5_7WygOsFgvQIG4CF22AYn_fWS8N/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-purple-500 transition duration-300"
+              >
+                My Resume
+              </a>
               
             </div>
 
@@ -59,9 +67,14 @@ function Navbar() {
               <Link to="projects" offset={-20} smooth duration={500} className="hover:text-purple-500 transition duration-300">
                 Projects
               </Link>
-              <Link to="contact-me" offset={-40} smooth duration={500} className="hover:text-purple-500 transition duration-300">
-                Contact Me
-              </Link>
+              <a
+                href="https://drive.google.com/file/d/1wZ5r5_7WygOsFgvQIG4CF22AYn_fWS8N/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-purple-500 transition duration-300"
+              >
+                My Resume
+              </a>
             </div>
           </Disclosure.Panel>
         </>

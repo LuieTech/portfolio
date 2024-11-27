@@ -10,7 +10,7 @@ function About() {
         {/* Image Section */}
         <div className="flex justify-center md:justify-center">
           <img
-            src="./luie.png"
+            src="./luie-3.png"
             alt="About Me"
             className="w-[55%] rounded-full sm:w-[33%] hover:scale-110 transition-all duration-700 md:w-[33%] lg:w-[55%] lg:rounded-[55%] lg:border-b-transparent h-auto object-cover pointer-events-none"
           />

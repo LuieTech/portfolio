@@ -75,6 +75,16 @@ function Footer() {
                   Contact Me
                 </Link>
               </li>
+              <li>
+              <a
+                href="https://drive.google.com/file/d/1wZ5r5_7WygOsFgvQIG4CF22AYn_fWS8N/view?usp=drive_link"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-purple-500 transition duration-300"
+              >
+                My Resume
+              </a>
+              </li>
             </ul>
           </div>
         </div>

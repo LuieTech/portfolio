@@ -29,7 +29,6 @@ function Hero() {
           src="./luie-8.png"
           alt="Hero Section"
           className="w-[60%] sm:w-[65%] md:w-[75%] lg:w-[75%] h-auto object-cover rounded-[5%] pointer-events-none"
-          // style={{ borderRadius: "20%", width: "80%" }}
         />
       </div>
     </section>

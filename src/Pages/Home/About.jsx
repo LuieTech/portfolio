@@ -31,7 +31,7 @@ function About() {
             user-friendly web applications.
           </p>
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
-            However, to expand my knowledge, I completed a second Bootcamp
+            However, to expand my knowledge, I completed a Bootcamp
             focused on Java, MySQL, and Spring Boot. This experience has given
             me a strong foundation in both front-end and back-end development.
           </p>

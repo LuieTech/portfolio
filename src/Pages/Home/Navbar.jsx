@@ -68,7 +68,7 @@ function Navbar() {
                 Projects
               </Link>
               <a
-                href="https://drive.google.com/file/d/1wZ5r5_7WygOsFgvQIG4CF22AYn_fWS8N/view?usp=drive_link"
+                href="https://drive.google.com/file/d/1qEMqvVM-UQyy2A28C4kPBW_DBFLcdI3w/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-purple-500 transition duration-300"

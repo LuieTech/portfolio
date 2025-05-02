@@ -2,12 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="/icon.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
+
+    <title>Luis Ramirez | Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Luis Ramirez — full-stack software developer specializing in Java, React, Spring Boot, and SQL." />
+    <meta name="keywords" content="Luis Ramirez, Software Developer, Full-stack Developer, Java, Spring Boot, React, SQL, LuieTech, Portfolio" />
+    <meta name="author" content="Luis Ramirez" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/icon.png" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="Luis Ramirez | Full-Stack Developer" />
+    <meta property="og:description" content="Explore the portfolio projects of Luis Ramirez, built using modern technologies like Java, Spring Boot, React, and SQL." />
+    <meta property="og:image" content="https://luieramirez-portfolio.netlify.app/preview.png" />
+    <meta property="og:url" content="https://luieramirez-portfolio.netlify.app/" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Luis Ramirez | Full-Stack Developer" />
+    <meta name="twitter:description" content="Explore full-stack projects built by Luis Ramirez using Java, React, and Spring Boot." />
+    <meta name="twitter:image" content="https://luieramirez-portfolio.netlify.app/preview.png" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Luis Ramirez",
+        "url": "https://luieramirez-portfolio.netlify.app/",
+        "sameAs": [
+          "https://github.com/LuieTech",
+          "https://www.linkedin.com/in/luieramirez/"
+        ],
+        "jobTitle": "Full Stack Developer",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Freelance"
+        }
+      }
+    </script>
   </head>
+
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
+

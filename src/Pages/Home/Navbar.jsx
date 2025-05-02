@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import { Link } from "react-scroll";
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid"; // You might need to install @heroicons/react if not installed

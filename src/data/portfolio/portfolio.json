@@ -1,7 +1,15 @@
 [
   {
+    "title": "FitTracker Mobile",
+    "description": "FitTracker Mobile is a comprehensive fitness tracking application that enables trainers to manage exercises, clients, and track fitness goals. Redesigned the frontend of the original FitTracker project to create a fully mobile-responsive experience with a cleaner, more modern UI and smoother styling. Removed authentication to make the app instantly accessible for demo/testing, while still using the same backend and database architecture as the original version.",
+    "technologies": "JavaScript, React.js, Vite, Modern UI/UX",
+    "image": "./fittracker-v2-user.png",
+    "githubLink": "https://github.com/LuieTech/FitTracker-client-public",
+    "link":"https://fittracker-mobile.netlify.app/"
+  },
+  {
     "title": "FitTracker",
-    "description": "FitTracker is a web application that allows trainers to manage their clients, assign exercises, and track progress efficiently. The application supports adding clients, managing client details, and associating specific exercises with each client.",
+    "description": "Developed a full-stack fitness tracking web application that enables trainers to manage clients, assign workouts, and monitor progress securely. Built with Java, Spring Boot, JPA, and PostgreSQL for the backend and React.js for the frontend, featuring JWT-based authentication, token refresh, and protected routes. Deployed on Render and Netlify with responsive UI design, CRUD functionality, and environment-specific configurations to ensure a seamless, secure user experience.",
     "technologies": "Java, Spring Boot, JWT Spring Security, JavaScript, React.js, SQL.",
     "image": "./ft-2.png",
     "githubLink": "https://github.com/LuieTech/FitTracker-client",

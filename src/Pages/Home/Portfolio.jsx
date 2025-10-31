@@ -46,7 +46,7 @@ function Portfolio() {
 
               <div className="relative flex justify-center">
                 <img
-                  className="object-fit  h-64 lg:h-60"
+                  className="object-fit  h-64 lg:h-60 border-2 border-gray-110 rounded-xl"
                   src={project.image}
                   alt={project.title}
                 />

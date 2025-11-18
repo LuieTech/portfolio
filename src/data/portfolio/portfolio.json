@@ -1,9 +1,17 @@
 [
   {
+    "title": "Sports Event Calendar",
+    "description": "A full-featured sports event calendar with interactive month navigation, event detail views, and dynamic event creation. Features state management for real-time updates, filtering by sport and date range, and persistent storage using LocalStorage. Built with mobile-first responsive design with smooth CSS transitions and comprehensive unit testing using Vitest and React Testing Library.",
+    "technologies": "React, Vite, JavaScript, CSS3, Vitest, React Testing Library",
+    "image": "./sports-calendar.png",
+    "githubLink": "https://github.com/LuieTech/sports-event-calendar",
+    "link":"https://sports-calendar.netlify.app/"
+  },
+  {
     "title": "FitTracker Mobile",
-    "description": "FitTracker Mobile is a comprehensive fitness tracking application that enables trainers to manage exercises, clients, and track fitness goals. Redesigned the frontend of the original FitTracker project to create a fully mobile-responsive experience with a cleaner, more modern UI and smoother styling. Removed authentication to make the app instantly accessible for demo/testing, while still using the same backend and database architecture as the original version.",
+    "description": "FitTracker Mobile is a fitness managing app that enables trainers to manage exercises, clients, and track fitness goals. Redesigned the frontend of the original FitTracker project to create a fully mobile-responsive experience with a cleaner, more modern UI and smoother styling. Removed authentication to make the app instantly accessible for demo/testing, while still using the same backend and database architecture as the original version.",
     "technologies": "JavaScript, React.js, Vite, Modern UI/UX",
-    "image": "./fittracker-v2-user.png",
+    "image": "./fittracker-v2-clients-2.png",
     "githubLink": "https://github.com/LuieTech/FitTracker-client-public",
     "link":"https://fittracker-mobile.netlify.app/"
   },

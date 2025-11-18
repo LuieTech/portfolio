@@ -11,7 +11,7 @@ function MySkills() {
            
           <h1 className="text-4xl font-bold">My Skills</h1>
         </div>
-        <div className="mx-8 flex flex-wrap sm:mx-6 p-9 gap-6 justify-center">
+        <div className="mx-0 flex flex-wrap sm:mx-6 lg:mx-1 md:mx-0 p-9 gap-6 justify-center">
           {" "}
           {/* Added gap and justify-center for better spacing */}
           {/* FRONTEND */}

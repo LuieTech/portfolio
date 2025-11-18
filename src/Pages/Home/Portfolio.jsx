@@ -12,7 +12,7 @@ function Portfolio() {
     <>
       <section
         id="projects"
-        className="pt-[6vh] pb-[10vh] mx-[6vw] sm:p-[6vw] sm:pt-[10vh] sm:pb-[13vh]"
+        className="pt-[6vh] pb-[10vh] mx-[6vw] sm:p-[6vw] sm:pt-[10vh] sm:pb-[13vh] lg:mx-1 md:mx-0"
       >
         {/* Título y botón */}
         <div className="flex flex-col mb-[8vh] sm:flex-row justify-between items-center text-center sm:text-left gap-y-2">

@@ -1,39 +1,40 @@
 [
   {
     "title": "Sports Event Calendar",
-    "description": "Full-featured sports calendar with interactive navigation, event creation, and filtering by sport/date range. Features real-time state management, persistent LocalStorage, and mobile-first responsive design. Includes comprehensive unit testing with Vitest.",
-    "technologies": "React, Vite, JavaScript, CSS3, Vitest, React Testing Library",
+    "description": "Interactive calendar with event creation, sport/date filtering, and LocalStorage persistence. Unit tested with Vitest.",
+    "technologies": "React, Vite, JavaScript, CSS3, Vitest",
     "image": "./sports-calendar.png",
-    "githubLink": "https://github.com/LuieTech/sports-event-calendar",
+    "githubLink": "https://github.com/LuieTech/sportradar-challenge",
     "link":"https://sports-calendar.netlify.app/"
   },
   {
     "title": "FitTracker Mobile",
-    "description": "Mobile-first fitness management app enabling trainers to manage exercises, clients, and track fitness goals. Redesigned frontend with modern UI/UX and full mobile responsiveness. Utilizes backend architecture with RESTful API integration for real-time data management.",
-    "technologies": "React.js, Vite, JavaScript, RESTful API, Modern UI/UX",
+    "description": "Mobile-first fitness app for trainers with client management and goal tracking. RESTful API integration with responsive UI/UX design.",
+    "technologies": "React.js, Vite, JavaScript, RESTful API",
     "image": "./fittracker-v2-clients-2.png",
     "githubLink": "https://github.com/LuieTech/FitTracker-client-public",
     "link":"https://fittracker-mobile.netlify.app/"
   },
+
   {
     "title": "FitTracker",
-    "description": "Full-stack fitness tracking application with Java Spring Boot backend and React frontend. Features JWT-based authentication, token refresh, protected routes, and PostgreSQL database. CRUD functionality for managing clients, workouts, and progress tracking.",
-    "technologies": "Java, Spring Boot, JWT Spring Security, React.js, PostgreSQL",
+    "description": "Full-stack fitness platform with Spring Boot backend, JWT authentication, and PostgreSQL database with CRUD operations.",
+    "technologies": "Java, Spring Boot, JWT, React.js, PostgreSQL",
     "image": "./ft-2.png",
     "githubLink": "https://github.com/LuieTech/FitTracker-client",
     "link":"https://fit7racker.netlify.app/"
   },
   {
     "title": "GeoMyWish",
-    "description": "Collaborative group shopping management tool built with MERN stack. Users create groups, manage multiple shopping lists, and add/edit products. Features real-time collaboration and MongoDB for data persistence.",
-    "technologies": "MongoDB, Express.js, React.js, Node.js, HTML/CSS, JavaScript",
+    "description": "MERN stack collaborative shopping platform with group management, real-time updates, and MongoDB data persistence.",
+    "technologies": "MongoDB, Express.js, React.js, Node.js",
     "image": "./gmw.png",
     "githubLink": "https://github.com/LuieTech/GeoMyWish",
     "link":"https://geomywish.fly.dev/login"
   },
   {
     "title": "TinderBook",
-    "description": "Server-side rendered social platform for book enthusiasts. Users browse, like, and match based on book preferences. Built with Handlebars templating, Express routing, and JWT authentication for secure user sessions.",
+    "description": "Server-side rendered social platform for book lovers with preference matching, Handlebars templating, and JWT authentication.",
     "technologies":"JavaScript, Handlebars, Node.js, Express, MongoDB, JWT",
     "image": "./tinder-book.png",
     "githubLink": "https://github.com/TinderBook/tinder-book",
@@ -41,7 +42,7 @@
   },
   {
     "title": "Space Aircraft",
-    "description": "Interactive browser game using HTML Canvas for 2D graphics. Players control spacecraft with keyboard navigation to avoid obstacles. Features collision detection and score tracking system.",
+    "description": "Browser-based game with HTML Canvas. Features keyboard controls, collision detection, and score tracking.",
     "technologies": "HTML/CSS, JavaScript, HTML Canvas",
     "image": "./aircraft-game.png",
     "githubLink": "https://github.com/LuieTech/Space-Aircraft/tree/main/assets",

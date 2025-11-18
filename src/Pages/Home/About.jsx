@@ -26,18 +26,13 @@ function About() {
           </div>
 
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
-            I’m Luie, a Full Stack Developer skilled in the MERN stack and
-            JavaScript. I’ve developed my skills in creating interactive and
-            user-friendly web applications.
+          I’m Luie, a full stack developer who works with JavaScript, React, Node.js, Java, Spring Boot, and SQL. I enjoy building real, functional applications, things that feel fast, intuitive, and pleasant to use.
           </p>
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
-            However, to expand my knowledge, I completed a Bootcamp
-            focused on Java, MySQL, and Spring Boot. This experience has given
-            me a strong foundation in both front-end and back-end development.
+          Most of my work blends front-end interfaces with solid backend logic. I’ve built fitness platforms, client-tracking tools, group-shopping apps, and smaller projects where I test new ideas and techniques. I like writing clean code, improving how things work behind the scenes, and turning concepts into something people can actually use.
           </p>
           <p className="text-lg items-stretch sm:text-xl text-gray-600">
-            My goal is to keep growing as a developer while creating solutions
-            that make a real impact.
+          I’m open to freelancing, collaborations, and new opportunities where I can contribute, learn, and build meaningful products.
           </p>
         </div>
       </section>

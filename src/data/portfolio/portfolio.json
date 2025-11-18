@@ -1,7 +1,7 @@
 [
   {
     "title": "Sports Event Calendar",
-    "description": "A full-featured sports event calendar with interactive month navigation, event detail views, and dynamic event creation. Features state management for real-time updates, filtering by sport and date range, and persistent storage using LocalStorage. Built with mobile-first responsive design with smooth CSS transitions and comprehensive unit testing using Vitest and React Testing Library.",
+    "description": "Full-featured sports calendar with interactive navigation, event creation, and filtering by sport/date range. Features real-time state management, persistent LocalStorage, and mobile-first responsive design. Includes comprehensive unit testing with Vitest.",
     "technologies": "React, Vite, JavaScript, CSS3, Vitest, React Testing Library",
     "image": "./sports-calendar.png",
     "githubLink": "https://github.com/LuieTech/sports-event-calendar",
@@ -9,40 +9,40 @@
   },
   {
     "title": "FitTracker Mobile",
-    "description": "FitTracker Mobile is a fitness managing app that enables trainers to manage exercises, clients, and track fitness goals. Redesigned the frontend of the original FitTracker project to create a fully mobile-responsive experience with a cleaner, more modern UI and smoother styling. Removed authentication to make the app instantly accessible for demo/testing, while still using the same backend and database architecture as the original version.",
-    "technologies": "JavaScript, React.js, Vite, Modern UI/UX",
+    "description": "Mobile-first fitness management app enabling trainers to manage exercises, clients, and track fitness goals. Redesigned frontend with modern UI/UX and full mobile responsiveness. Utilizes backend architecture with RESTful API integration for real-time data management.",
+    "technologies": "React.js, Vite, JavaScript, RESTful API, Modern UI/UX",
     "image": "./fittracker-v2-clients-2.png",
     "githubLink": "https://github.com/LuieTech/FitTracker-client-public",
     "link":"https://fittracker-mobile.netlify.app/"
   },
   {
     "title": "FitTracker",
-    "description": "Developed a full-stack fitness tracking web application that enables trainers to manage clients, assign workouts, and monitor progress securely. Built with Java, Spring Boot, JPA, and PostgreSQL for the backend and React.js for the frontend, featuring JWT-based authentication, token refresh, and protected routes. Deployed on Render and Netlify with responsive UI design, CRUD functionality, and environment-specific configurations to ensure a seamless, secure user experience.",
-    "technologies": "Java, Spring Boot, JWT Spring Security, JavaScript, React.js, SQL.",
+    "description": "Full-stack fitness tracking application with Java Spring Boot backend and React frontend. Features JWT-based authentication, token refresh, protected routes, and PostgreSQL database. CRUD functionality for managing clients, workouts, and progress tracking.",
+    "technologies": "Java, Spring Boot, JWT Spring Security, React.js, PostgreSQL",
     "image": "./ft-2.png",
     "githubLink": "https://github.com/LuieTech/FitTracker-client",
     "link":"https://fit7racker.netlify.app/"
   },
   {
     "title": "GeoMyWish",
-    "description": "'GeoMyWish', allows users to create groups and manage shopping lists within those groups. Each group can have multiple shopping lists, and users can add, edit, and manage products within those lists, making it a collaborative tool for group-based shopping management.",
-    "technologies": "HTML/CSS, JavaScript, MongoDB, Express.js, React.js, Node.js" ,
+    "description": "Collaborative group shopping management tool built with MERN stack. Users create groups, manage multiple shopping lists, and add/edit products. Features real-time collaboration and MongoDB for data persistence.",
+    "technologies": "MongoDB, Express.js, React.js, Node.js, HTML/CSS, JavaScript",
     "image": "./gmw.png",
     "githubLink": "https://github.com/LuieTech/GeoMyWish",
     "link":"https://geomywish.fly.dev/login"
   },
   {
     "title": "TinderBook",
-    "description": "TinderBook is a server-side rendering application that allows users to connect with others based on shared interests, similar to Tinder but designed for book enthusiasts. Users can browse, like, and match with others based on their book preferences. Key Technologies: JavaScript, Node.js, Express, MongoDB, React, and JWT for user authentication.",
-    "technologies":"JavaScript, Handlebars, CSS, Node.js, Express, MongoDB",
+    "description": "Server-side rendered social platform for book enthusiasts. Users browse, like, and match based on book preferences. Built with Handlebars templating, Express routing, and JWT authentication for secure user sessions.",
+    "technologies":"JavaScript, Handlebars, Node.js, Express, MongoDB, JWT",
     "image": "./tinder-book.png",
     "githubLink": "https://github.com/TinderBook/tinder-book",
     "link":""
   },
   {
     "title": "Space Aircraft",
-    "description": "Space-Aircraft is a web-based interactive game that allows players to control a spacecraft using simple arrow keys to avoid obstacles and navigate through space. The goal is to survive as long as possible while avoiding collisions with incoming objects. Key Technologies: HTML/CSS, JavaScript, and HTML Canvas",
-    "technologies": "HTML/CSS, JavaScript, HTML Canvas, GitHub Pages",
+    "description": "Interactive browser game using HTML Canvas for 2D graphics. Players control spacecraft with keyboard navigation to avoid obstacles. Features collision detection and score tracking system.",
+    "technologies": "HTML/CSS, JavaScript, HTML Canvas",
     "image": "./aircraft-game.png",
     "githubLink": "https://github.com/LuieTech/Space-Aircraft/tree/main/assets",
     "link":"https://luietech.github.io/Space-Aircraft/"
